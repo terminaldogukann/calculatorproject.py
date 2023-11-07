@@ -13,7 +13,11 @@ elif(operatör =="2"):
     print("{} - {} = {}".format(ilkSayi,ikinciSayi,ilkSayi - ikinciSayi))
 
 elif(operatör == "3"):
-    print("{} x {} = {}".format(ilkSayi,ikinciSayi, ilkSayi * ikinciSayi))
+    ilkSayi = float(ilkSayi)
+    ikinciSayi = float(ikinciSayi)
+    sonuc = ilkSayi * ikinciSayi
+    print("{} x {}  = {}".format(ilkSayi,ikinciSayi,sonuc))
+
 
 elif(operatör == "4"):
     print("{} / {} = {}".format(ilkSayi,ikinciSayi, ilkSayi / ikinciSayi))
