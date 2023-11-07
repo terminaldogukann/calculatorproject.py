@@ -13,9 +13,9 @@ elif(operatör =="2"):
     print("{} - {} = {}".format(ilkSayi,ikinciSayi,ilkSayi - ikinciSayi))
 
 elif(operatör == "3"):
-    ilkSayi = float(ilkSayi)
-    ikinciSayi = float(ikinciSayi)
-    sonuc = ilkSayi * ikinciSayi
+    ilkSayi = float(ilkSayi) # equal to float. input number (1)
+    ikinciSayi = float(ikinciSayi) # equal to float input number(2)
+    sonuc = ilkSayi * ikinciSayi 
     print("{} x {}  = {}".format(ilkSayi,ikinciSayi,sonuc))
 
 
